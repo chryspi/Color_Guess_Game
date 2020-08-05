@@ -1,0 +1,67 @@
+body{
+	background-color:#232323;
+}
+
+.square{
+  width:30%;
+  background:purple;
+  padding-bottom:30%;
+  margin:1.66%;
+  float:left;
+  border-radius:25px;
+}
+
+#container{
+	max-width:600px;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+h1{
+	color:white;
+	text-align:center;
+	font-size:50px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#stripe{
+	
+    background-color:white;
+    height:30px;
+    text-align:center;
+    color:black;
+    
+}
+#reset{
+	float:left;
+	border:none;
+}
+
+
+
+
+#stripe button{
+	border:none;
+	background-color:white;
+	padding:5px 10px;
+	float:left;
+	font-family: 'Oswald', sans-serif;
+	
+}
+#stripe button:hover{
+	
+	color:blue;
+	cursor:pointer;
+}
+
+.selected{
+	background-color:blue!important;
+}
+
+#message{
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  margin:auto;
+  margin-right:150px;
+}
